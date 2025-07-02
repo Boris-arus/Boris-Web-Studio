@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Boris Web Studio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      margin-bottom: 20px;
+    }
+    .services, .portfolio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a { color: #00bcd4; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Boris Web Studio</h1>
+  <p>HTML & Figma | Лендинги и сайты под ключ</p>
+</header>
+
+<section>
+  <h2>Обо мне</h2>
+  <p>Я — начинающий веб-разработчик. Создаю адаптивные сайты на HTML и дизайн-макеты в Figma. Внимателен к деталям и открыт к сотрудничеству.</p>
+</section>
+
+<section>
+  <h2>Услуги</h2>
+  <div class="services">
+    <div class="card"><strong>HTML-вёрстка</strong><br>Чистый, адаптивный код</div>
+    <div class="card"><strong>Figma-дизайн</strong><br>Современные макеты</div>
+    <div class="card"><strong>Лендинги</strong><br>Одностраничные сайты под ключ</div>
+  </div>
+</section>
+
+<section>
+  <h2>Портфолио</h2>
+  <div class="portfolio">
+    <div class="card">UrbanStyle (дизайн)<br>Figma</div>
+    <div class="card">PixelBox Studio<br>HTML + CSS</div>
+  </div>
+</section>
+
+<section>
+  <h2>Контакты</h2>
+  <p>Email: <a href="mailto:borisrustamov41@gmail.com">borisrustamov41@gmail.com</a><br>
+     Telegram: <a href="https://t.me/bo___br">@bo___br</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Boris Web Studio
+</footer>
+
+</body>
+</html>
